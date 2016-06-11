@@ -176,7 +176,11 @@ width: calc(100% - 100px)
     /* padding-top: 560px; */
     position: absolute;
 }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> origin/master
 
 .bluegrayarm {
   
@@ -215,6 +219,7 @@ width: calc(100% - 100px)
 .grayorange {
     
   
+<<<<<<< HEAD
     height: 408.164px;
     width: calc(100% - 100px);
     right: -510px;
@@ -228,6 +233,16 @@ width: calc(100% - 100px)
 
 
 
+=======
+    height: 453.164px;
+    width: calc(100% - 100px);
+    right: -480px;
+    top: 130px;
+    float:right;
+    position: fixed;
+    display:inline-block;
+  vertical-align:top;
+>>>>>>> origin/master
 
 }
 
@@ -902,6 +917,7 @@ footer {
 
 
 
+<<<<<<< HEAD
 /* Extra small devices (phones, less than 768px) */
 @media all and (max-width: 380px) {
     
@@ -1009,6 +1025,66 @@ background: url(../images/WoodPanel.png) no-repeat 50% 100%;
 @media (min-width: @screen-sm-min) { 
 
 .who {
+=======
+@media all and (min-width: 1400px) {
+	.centered p {
+		font-size: 3em;
+	}
+	.bigheadline {
+		font-size: 15em;
+	}
+	.subheadline {
+		font-size: 5em;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 992px) {
+
+	.who {
+		max-width: 293px;
+		height: 213px;
+	}
+	.who-wrap i {
+	    font-size: 4em;
+	    margin-top: 28px;
+	}
+	.who-wrap h3 {
+	    font-size: 1.4em;
+	}
+	.who-wrap p {
+	    font-size: 11px;
+	    padding: 0px 35px;
+	}
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+
+	.who {
+		max-width: 293px;
+		height: 293px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.service-wrap p {
+		padding: 0px 40px;
+		font-size: 14px;
+	}
+	.pe-dj {
+		font-size: 6em;
+	}
+
+}
+
+@media all and (max-width: 991px) {
+
+	header{
+		background: url(../images/WoodPanel.png) no-repeat !important;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.who {
+>>>>>>> origin/master
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -1043,6 +1119,7 @@ background: url(../images/WoodPanel.png) no-repeat 50% 100%;
 	    top: 70%;
 	    left: 46%;
 	}
+<<<<<<< HEAD
 
  }
 
@@ -1097,3 +1174,41 @@ background: url(../images/WoodPanel.png) no-repeat 50% 100%;
 	}
 
  }
+=======
+}
+@media all and (max-width: 380px) {
+
+
+	.logo-text {
+	    font-size: 2em;
+	}
+	.centered p {
+	    font-size: 1em;
+	}
+	.bigheadline {
+	    font-size: 4em;
+	}
+	.subheadline {
+	    font-family: 'Titillium Web',sans-serif;
+	    font-size: 1.5em;
+	    font-weight: 200;
+	    margin: 0;
+	}
+	.testimonila-block p {
+	    max-width: 90%;
+	}
+	.social-icons a {
+	    width: 30px;
+	    height: 30px;
+	}
+	
+}
+
+@media all and (max-width: 480px) {
+
+	.scrollDown {
+	    top: 70%;
+	    left: 44%;
+	}
+}
+>>>>>>> origin/master
