@@ -176,7 +176,11 @@ width: calc(100% - 100px)
     /* padding-top: 560px; */
     position: absolute;
 }
+<<<<<<< HEAD
+
+=======
 }
+>>>>>>> origin/master
 
 .bluegrayarm {
   
@@ -215,6 +219,21 @@ width: calc(100% - 100px)
 .grayorange {
     
   
+<<<<<<< HEAD
+    height: 408.164px;
+    width: calc(100% - 100px);
+    right: -510px;
+    top: 190px;
+    right: -481px;
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+=======
     height: 453.164px;
     width: calc(100% - 100px);
     right: -480px;
@@ -223,6 +242,7 @@ width: calc(100% - 100px)
     position: fixed;
     display:inline-block;
   vertical-align:top;
+>>>>>>> origin/master
 
 }
 
@@ -897,6 +917,115 @@ footer {
 
 
 
+<<<<<<< HEAD
+/* Extra small devices (phones, less than 768px) */
+@media all and (max-width: 380px) {
+    
+    /*Main Hands Animation*/
+    
+    header{
+background: url(../images/WoodPanel.png) no-repeat 50% 100%;
+  position: relative;
+  overflow: hidden;
+        text-align: center;
+        height: 547px !important;
+}
+    
+    .whitepaperbg{
+    
+   max-width: 500px;
+        position: relative;
+    height: 553px;
+    min-width: 460px;
+    margin-left: -118px;
+    padding-top: -141px;
+    float: left;
+}
+
+.hands {
+    position: relative;
+    height: 553px;
+    min-width: 460px;
+    margin-left: -79px;
+    padding-top: -141px;
+    float: left;
+}
+    
+    .grayorange {
+    position: relative;
+    height: 135px;
+    margin-left: -567px;
+    margin-top: -55px;
+}
+    
+}
+    
+    /* Navigation */
+    
+    .nav {
+    padding-left: 0;
+    margin-bottom: 78px;
+    list-style: none;
+}
+
+    /*Logo*/
+
+	.logo-text {
+	    font-size: 2em;
+    padding: 0.2em 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    display: table-cell;
+	vertical-align: middle;
+	}
+	.centered p {
+	    font-size: 1em;
+	}
+	.bigheadline {
+	    font-size: 4em;
+	}
+	.subheadline {
+	    font-family: 'Titillium Web',sans-serif;
+	    font-size: 1.5em;
+	    font-weight: 200;
+	    margin: 0;
+	}
+	.testimonila-block p {
+	    max-width: 90%;
+	}
+	.social-icons a {
+	    width: 30px;
+	    height: 30px;
+	}
+	
+}
+
+@media all and (max-width: 480px) {
+
+	.scrollDown {
+	    top: 90%;
+	    left: 44%;
+	}
+    
+    .arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	
+	border-bottom: 8px solid white;
+	float: right;
+	margin-top: -5%;
+	margin-right: 23px;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+.who {
+=======
 @media all and (min-width: 1400px) {
 	.centered p {
 		font-size: 3em;
@@ -955,6 +1084,7 @@ footer {
 
 @media all and (max-width: 768px) {
 	.who {
+>>>>>>> origin/master
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -989,6 +1119,62 @@ footer {
 	    top: 70%;
 	    left: 46%;
 	}
+<<<<<<< HEAD
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+.who {
+		max-width: 293px;
+		height: 293px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.service-wrap p {
+		padding: 0px 40px;
+		font-size: 14px;
+	}
+	.pe-dj {
+		font-size: 6em;
+	}
+
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+	.centered p {
+		font-size: 3em;
+	}
+	.bigheadline {
+		font-size: 15em;
+	}
+	.subheadline {
+		font-size: 5em;
+	}
+}
+
+.who {
+		max-width: 293px;
+		height: 213px;
+	}
+	.who-wrap i {
+	    font-size: 4em;
+	    margin-top: 28px;
+	}
+	.who-wrap h3 {
+	    font-size: 1.4em;
+	}
+	.who-wrap p {
+	    font-size: 11px;
+	    padding: 0px 35px;
+	}
+
+ }
+=======
 }
 @media all and (max-width: 380px) {
 
@@ -1025,3 +1211,4 @@ footer {
 	    left: 44%;
 	}
 }
+>>>>>>> origin/master
